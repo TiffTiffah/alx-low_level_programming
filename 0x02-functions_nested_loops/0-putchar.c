@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <main.h>
 
 /**
@@ -7,15 +8,14 @@
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char words[9] = "_putchar";
+	int n = 0;
+
+	for (n = 0; n < 9; n++)
+	{
+		_putchar(words[n]);
+	}
+	_putchar('\n');
 
 	return (0);
 }
-
