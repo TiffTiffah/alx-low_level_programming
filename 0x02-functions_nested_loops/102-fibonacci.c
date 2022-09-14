@@ -7,19 +7,26 @@
  */
 int main(void)
 {
+	long int sum;
+	long int first, second;
 	int count;
-	unsigned long f1 = 0, f2 = 1, sum;
 
-	for (count = 0; count > 49; count++)
+	sum = 0;
+	first = 0;
+	second = 1;
+	count = 0;
+
+	while (count < 49)
 	{
-		sum = f1 + f2;
-		printf("%lu, ", sum);
+		sum = first + second;
+		printf("%li, ", sum);
+		first = second;
+		second = sum;
 
-		f1 = f2;
-		f2 = sum;
-
-		if (count == 49)
-			printf("\n");
+		count++;
 	}
+	sum = first + second;
+	printf("%li\n", sum);
+
 	return (0);
 }
