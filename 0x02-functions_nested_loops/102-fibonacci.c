@@ -17,9 +17,9 @@ int main(void)
 
 		f1 = f2;
 		f2 = sum;
-	}
-	sum = f1 + f2;
-	printf("%lu\n", sum);
 
+		if (count == 49)
+			printf("\n");
+	}
 	return (0);
 }
