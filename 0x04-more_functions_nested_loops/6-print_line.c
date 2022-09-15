@@ -1,28 +1,21 @@
-#include <stdio.h>
-#include "main.h"
+nclude <stdio.h>                                                                                                                                       
 
-/**
- * print_line - draws a straight line in the terminal
- * @n: the integer that will be used un counting
+#include "main.h"                                                                                                                                        
+
+                                                                                                                                                         
+
+/**                                                                                                                                                      
  *
- * Return: 0 when n = 0 or less
- */
+ *  * print_line - draws a straight line in the terminal                                                                                                    
+ *
+ *   * @n: the integer that will be used un counting                                                                                                         
+ *
+ *    *                                                                                                                                                       
+ *
+ *     * Return: 0 when n = 0 or less                                                                                                                          
+ *
+ *      */                                                                                                                                                      
 
-void print_line(int n)
-{
-	int length;
+                                                                                                                                                         
 
-	if (n < 0 || n == 0)
-	{
-		_putchar('\n');
-		return (0);
-	}
-	else
-	{
-		for (length = 0; length < n; length++)
-		{
-			_putchar('\n');
-		}
-		_putchar('\n');
-	}
-}
+void print_line(int n) 
