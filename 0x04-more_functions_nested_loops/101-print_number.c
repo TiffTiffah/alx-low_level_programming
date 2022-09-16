@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
 * print_number - function to print an integer
 * @n: parameter
@@ -7,7 +8,7 @@
 */
 void print_number(int n)
 {
-n = 9;
-_putchar(i);
-return (0);
+	n = 9;
+	_putchar(i);
+	return (0);
 }
