@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 #include "main.h"
 /**
 * rev_string - function to reverse words
