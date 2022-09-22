@@ -10,16 +10,16 @@
 char *strcat(char *dest, const char *src)
 {
 	int index = 0;
-  dest_len = 0;
+	int dest_len = 0;
 
 	while (*(dest + index))
 		index++;
 
 	while ((*(dest + index) = *(src + dest_len)))
-  {
-    i++;
-    j++;
-  }
+	{
+		index++;
+		dest_len++;
+	}
 
 	return (dest);
 }
