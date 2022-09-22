@@ -1,1 +1,1 @@
-This repository is on low-level programming such as C Programming
+THis directory is on more pointers,array and strings
